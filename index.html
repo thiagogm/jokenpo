@@ -10,19 +10,16 @@
     <h2>Jogador</h2>
     <img src="img/pedra.png" alt="pedra">
     <img src="img/papel.png" alt="papel">
-    <img src="img/tesoura.png" alt="pedra">
+    <img src="img/tesoura.png" alt="tesoura">
 
     <form>
-        <input type="radio" name="escolha" id="pedra"> Pedra
-        <input type="radio" name="escolha" id="papel"> Papel
-        <input type="radio" name="escolha" id="tesoura"> Tesoura
-
-     
+        <label><input type="radio" name="escolha" id="pedra"> Pedra</label>
+        <label><input type="radio" name="escolha" id="papel"> Papel</label>
+        <label><input type="radio" name="escolha" id="tesoura"> Tesoura</label>
 
         <p>
-            <!--type="button" não envia o formulário (comportamento padrão)-->
             <input type="button" value="JOGAR" onclick="jogar()"> 
-            <input type="reset" value=" RESET " onclick="limpar()">
+            <input type="reset" value="RESET" onclick="limpar()">
         </p>
     </form>
     <hr>
